@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $password=$_POST['password'];
 
 
-    $sql="SELECT * from student_t where studentID='$ID' and password='$password'";
+    $sql="SELECT * from employee_t where employeeID='$ID' and password='$password'";
     $result=mysqli_query($conn,$sql);
     if($result){
         $num=mysqli_num_rows($result);
@@ -18,7 +18,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
           $invalid=0;
             session_start();
             $_SESSION['ID']=$ID;
-            header('location: S_Dashboard.php');
+            header('location: F_Dashboard.php');
         }
      }
           

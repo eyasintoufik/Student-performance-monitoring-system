@@ -38,8 +38,15 @@ body {
   
 .content1 {
   color: var(--text-color);
-  margin-left: 90px;
+  margin-left: 330px;
   transition: all 0.4s;
+  width: 100%;
+}
+.content1 h2{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigation1 {
   position: fixed;
@@ -54,15 +61,16 @@ body {
   overflow: hidden;
   transition: width 0.3s ease-in-out;
   border-radius: 0.2rem;
-}
-
-.navigation1:hover {
   width: 300px;
 }
 
-.navigation1:hover ~ .content1 {
-  margin-left: 330px;
+.navigation1:hover {
+  /* background-color: rgb(75, 192, 192); */
 }
+
+/* .navigation1:hover ~ .content1 {
+  margin-left: 330px;
+} */
 .navigation1 ul {
   position: absolute;
   top: 45%;
@@ -79,11 +87,15 @@ body {
   border-bottom-left-radius: 15px;
   z-index: 100;
 }
+.navigation1 ul li:hover {
+  background-color:  rgb(75, 192, 192);
+  padding: 0.2rem;
+}
 .navigation1 ul li.active {
   background-color: var(--primary-color);
 }
 
-.navigation1 ul li.active a::before {
+/* .navigation1 ul li.active a::before {
   content: "";
   position: absolute;
   background-color: var(--background-color);
@@ -93,9 +105,9 @@ body {
   top: -16.5px;
   border-radius: 50%;
   box-shadow: 6px 6px 0 var(--primary-color);
-}
+} */
 
-.navigation1 ul li.active a::after {
+/* .navigation1 ul li.active a::after {
   content: "";
   position: absolute;
   background-color: var(--background-color);
@@ -105,7 +117,7 @@ body {
   bottom: -16.5px;
   border-radius: 50%;
   box-shadow: 6px -6px 0 var(--primary-color);
-}
+} */
 
 .navigation1 ul li a {
   position: relative;
@@ -181,14 +193,11 @@ body {
   display: flex;
   column-gap: 150px;
 }
-::placeholder{
- color: #fff;
-}
 
 
 
 .submit{
-  background-color:darkgrey; 
+  background-color: rgb(255, 99, 132,0.7); 
   border-radius: 5px; 
   padding:1px 10px;
   margin: 15px 0px;
@@ -201,6 +210,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr; 
   margin-top: 40px;
   padding: 20px;
+  margin-left: 40px;
 }
 .submitDiv label{
   font-size:large;
@@ -225,7 +235,11 @@ body {
 
 }
 #submit-btn{
-  margin-left: 25px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 

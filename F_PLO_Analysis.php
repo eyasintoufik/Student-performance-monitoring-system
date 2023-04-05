@@ -126,12 +126,12 @@ $result2=mysqli_query($conn,$sql2);
         <div class="container">
 
             <div>
-            <h3 style="text-align: center">Plo Analysis with Department Average </h3>
-                <canvas id="myChart1" width="700" height="500"></canvas>
+            <h3 style="text-align: center display:flex; margin:auto">Plo Analysis with Department Average </h3>
+                <canvas id="myChart1" width="400" height="300"></canvas>
             </div>
             <div>
                 <h3 style="text-align: center">Plo Analysis with Program Average </h3>
-                <canvas id="myChart" width="700" height="500"></canvas>
+                <canvas style="" id="myChart" width="600" height="450"></canvas>
             </div>
             <script>
                 

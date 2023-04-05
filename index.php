@@ -13,11 +13,11 @@
 			<input type="text" name = "ID" id="userField" placeholder="username" required="required">
 			<input type="password" name = "password" id="Password" placeholder="password" >
 			<div class="links">
-				<a href="#" class="forgot-pass">Forgot Password ?</a>
+				<a href="#" id="forgot" class="forgot-pass">Forgot Password ? </a>
 			</div>
 			<input type="submit" id="login" value="Login">
 		</form>
 	</div>
-	<!-- <script src="/js/index.js"></script> -->
+	<script src="/main.js"></script>
 </body>
 </html>

@@ -77,3 +77,9 @@ function Submit(){
 function submit(){
  alert("successfully submitted"); 
 }
+
+
+document.getElementById("forgot").addEventListener("click", function(){
+  alert("oops! contact with register office!"); 
+  
+})

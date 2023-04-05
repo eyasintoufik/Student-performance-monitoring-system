@@ -47,7 +47,8 @@ $plo = mysqli_query($conn, $sql);
     <nav class="navigation1">
         <div class="content2 flex-con">
             <div>
-                <h4>Ezaz Ahmed <br> Student</h4>
+                <h4>Ezaz Ahmed </h4>
+                <small>student</small>
             </div>
             <div><a href="#"><img src="icons8-kuroo-48.png" alt=""></a></div>
         </div>

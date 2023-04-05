@@ -33,7 +33,8 @@ $plo = mysqli_query($conn, $sql);
     <nav class="navigation1">
         <div class="content2 flex-con">
             <div>
-                <h4>Ezaz Ahmed <br> Student</h4>
+                <h4>Ezaz Ahmed </h4>
+                <small>student</small>
             </div>
             <div><a href="#"><img src="icons8-kuroo-48.png" alt=""></a></div>
         </div>
@@ -104,7 +105,7 @@ $plo = mysqli_query($conn, $sql);
       <div>
         <!-- <div><a href="#"><img src="gpa.png" alt=""></a></div> -->
         <h3 style="text-align: center">GPA PERFORMANCE </h3>
-            <canvas id="myChart" width="700" height="500"canvas>
+            <canvas id="myChart" width="500" height="500"canvas>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -184,7 +185,7 @@ $plo = mysqli_query($conn, $sql);
         </script>
         <div>
         <h3 style="text-align: center">PLO PERFORMANCE </h3>
-            <canvas id="myChart1" width="700" height="500" ></canvas>
+            <canvas id="myChart1" width="500" height="500" ></canvas>
         </div>
         <script>
             const ctx1 = document.getElementById('myChart1').getContext('2d');

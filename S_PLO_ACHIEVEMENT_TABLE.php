@@ -110,7 +110,7 @@ $coWise=mysqli_query($conn,$sql1);
         <div class="container">
         <!-- <h1>Spider Chart of Po Achieved </h1> -->
         <div>
-            <canvas id="myChart" width="700" height="400"></canvas>
+            <canvas id="myChart" width="500" height="400"></canvas>
         </div>
         <script>
             const ctx = document.getElementById('myChart').getContext('2d');
@@ -170,7 +170,7 @@ $coWise=mysqli_query($conn,$sql1);
         </script>
         <!-- <h1>Spider Chart of Co Achieved </h1> -->
         <div>
-            <canvas id="myChart2" width="700" height="400"></canvas>
+            <canvas id="myChart2" width="500" height="400"></canvas>
         </div>
         <script>
             const ctx2 = document.getElementById('myChart2').getContext('2d');
